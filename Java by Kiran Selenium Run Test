@@ -1,0 +1,20 @@
+package seleniumproject;
+
+public class Run {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		Javabykiranselenium obj=new Javabykiranselenium();
+		obj.register();
+		obj.newmember();
+		obj.alreadymember();
+	    obj.login();
+		obj.user();
+		obj.usefullink();
+		obj.download();
+		obj.logout();
+	}
+
+}
